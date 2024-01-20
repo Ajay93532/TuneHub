@@ -1,0 +1,63 @@
+@charset "ISO-8859-1";
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #333;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+a:visited {
+  color: #551a8b;
+}
+
+a:active {
+  color: #ff0000;
+}
+
+a:focus {
+  outline: 2px solid #007bff;
+}
+
+/* Optional: Add some styling to the links to make them stand out */
+a {
+  display: inline-block;
+  padding: 8px 16px;
+  border: 1px solid #007bff;
+  border-radius: 4px;
+  margin: 8px;
+}
+
+/* Optional: Style the links differently based on their purpose */
+a[href="newSong"] {
+  background-color: #28a745;
+  color: #fff;
+}
+
+a[href="viewSongs"] {
+  background-color: #007bff;
+  color: #fff;
+}
+
+a[href="createPlaylist"] {
+  background-color: #ffc107;
+  color: #333;
+}
+
+a[href="viewPlaylist"] {
+  background-color: #6c757d;
+  color: #fff;
+}
